@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.sec-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #d8d5d51a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+}
+
+.list ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.list ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+  color: #000;
+  transition: 0.3s;
+}
+.list ul li a:hover {
+  color: red;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.main-home {
+  text-align: center;
+  padding-top: 50px;
+}
+.main-home-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.sec-listing {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sec-listing ul li {
+  padding-top: 10px;
+}
+.main-home-2 {
+  text-align: center;
+  /* margin-top: 50px; */
+  background-color: rgba(255, 0, 0, 0.534);
+  padding: 20px;
+  color: #fff;
+}
+main{
+  /* background-color: #ccc2c2; */
+  height: 628px;
+}
+form {
+  padding-top: 30px;
+}
+
+/* card compornet */
+.img_hodler {
+  width: 500px;
+  height: 250px;
+  margin: 40px 0;
+}
+.img_hodler img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card_map {
+  width: 500px;
+  margin: 0 auto;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.sec-logo {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adds {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
