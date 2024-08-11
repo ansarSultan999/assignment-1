@@ -6,15 +6,18 @@ const About = () => {
     return (
         <>
         <div className='main-home'>
+            <div className='abcd'> 
             <h2>About Us</h2>
             <p>This is the About page.</p>
             </div>
+           
             <Card
             src={cardimg}
             title="Its About heading"
             detail="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, veritatis!"
             navigateto="/about"
             />
+             </div>
             </>
     );
 };

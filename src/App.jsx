@@ -7,21 +7,20 @@ import About from './component/pages/About';
 import ProductList from './component/pages/ProductList';
 import Contact from './component/pages/Contact';
 import Card from './component/Card';
-import cardimg from '/images/pro-1.webp'
 const App = () => {
     const message = "Welcome to the Home Page!";
     const adds = [
         {
-            src: cardimg,
+            src: "/images/pro-1.webp",
         },
         {
-            src: "../../../public/images/pro-2.jpg",
+            src: "/images/pro-2.jpg",
         },
         {
-            src: "../../../public/images/pro-3.webp",
+            src: "/images/pro-3.webp",
         },
         {
-            src: "../../../public/images/pro-4.webp",
+            src: "/images/pro-4.webp",
         }
 
     ];

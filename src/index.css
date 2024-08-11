@@ -8,7 +8,7 @@
   justify-content: space-around;
   background: #d8d5d51a;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 30px;
+  padding: 22px 0;
 }
 
 .list ul {
@@ -52,8 +52,8 @@
 }
 .main-home-2 {
   text-align: center;
-  /* margin-top: 50px; */
-  background-color: rgba(255, 0, 0, 0.534);
+  margin-top: 110px;
+  background-color: rgba(0, 255, 21, 0.534);
   padding: 20px;
   color: #fff;
 }
@@ -67,9 +67,10 @@ form {
 
 /* card compornet */
 .img_hodler {
-  width: 500px;
-  height: 250px;
+  width: 100%;
+  height: 300px;
   margin: 40px 0;
+  position: relative;
 }
 .img_hodler img {
   height: 100%;
@@ -77,17 +78,36 @@ form {
   object-fit: cover;
 }
 .card_map {
-  width: 500px;
   margin: 0 auto;
 }
 img {
   height: 100%;
   width: 100%;
 }
+.main-home {
+  position: relative;
+}
 
+.abcd {
+  color: #fff;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.abcd>h2 {
+  font-size: 60px;
+}
+
+.abcd>p {
+  font-size: 24px;
+  padding-top: 20px;
+}
 .sec-logo {
-  height: 150px;
-  width: 150px;
+  height: auto;
+  width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
